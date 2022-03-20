@@ -16,7 +16,7 @@
       <p></p>
       <label for="size-select">select your pizza size</label>
       <div class="size-select">
-        <select  aria-label="pizza size">
+        <select class="form-control col-md-4 size">
           <option value="500">small</option>
           <option value="700">medium</option>
           <option value="1000">large</option>
@@ -67,8 +67,9 @@
         </div>
       </div>
 
+      
       <div class="ltop">
-        <p>choose your toppings</p>
+        <label for="ltop">choose your toppings</label>
         <div class="form-check">
           <input class="form-check-input" type="checkbox" value="300" id="margherital">
           <label class="form-check-label" for="margherita">
@@ -89,10 +90,11 @@
         </div>
       </div>
 
-      <select class="form-control crust">
-        <option label="Stuffed" value="200">Stuffed</option>
-        <option label="Gluten-Free" value="150">Gluten-Free</option>
-        <option label="Crispy" value="100">Crispy</option>
+      <label for="crust">choose your crust preference</label>
+      <select class="form-control col-md-4 crust">
+        <option value="200">Stuffed</option>
+        <option  value="150">Gluten-Free</option>
+        <option value="100">Crispy</option>
       </select>
 
     </div>
