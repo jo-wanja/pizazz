@@ -100,35 +100,37 @@
       </select>
       <button id="order">Order</button>
       <!-- order table display -->
-      <table class="table">
-        <thead>
-          <tr>
-            <th scope="col">Order No.</th>
-            <th scope="col">Pizza Size</th>
-            <th scope="col">Toppings</th>
-            <th scope="col">Crust</th>
-            <th scope="col">Total</th>
-          </tr>
-        </thead>
-        <tbody id="pizza">
-          <tr>
-            <td id="order"></th>
-            <td id="size"></td>
-            <td id="toppings"></td>
-            <td id="crust"></td>
-            <td id="total"></td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="onOrder">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Order No.</th>
+              <th scope="col">Pizza Size</th>
+              <th scope="col">Toppings</th>
+              <th scope="col">Crust</th>
+              <th scope="col">Total</th>
+            </tr>
+          </thead>
+          <tbody id="pizza">
+            <tr>
+              <td id="order"></th>
+              <td id="size"></td>
+              <td id="toppings"></td>
+              <td id="crust"></td>
+              <td id="total"></td>
+            </tr>
+          </tbody>
+        </table>
 
-      <button id="add">Add</button>
-      <p>you can get delivery at an additional price of Ksh.300/=</p>
-      <button id="delivery">Delivery</button>
-      <div>
+        <button id="add">Add</button>
+        <p>you can get delivery at an additional price of Ksh.300/=</p>
+        <button id="delivery">Delivery</button>
+      </div>
+      <div class="onDelivery">
         <input type="text" size="30" placeholder="Where do you live?" id="loc" required />
         <button id="location">submit</button>
       </div>
-      <div>
+      <div class="onOrder">
        <button id="checkout">checkout</button>
     </div>
       <p id="DcheckoutMsg"></p>
