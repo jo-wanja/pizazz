@@ -17,6 +17,15 @@ $(".size ").on('change',function(){
   $(".mdtop").hide();
   $(".ltop").show();
  }
-
 })
+$("#order").click(function(){
+  var size = $(".size option:selected").val();
+    var top = $(".top :checked").val();
+    var crust = $(".crust option:selected").val();
+    var total = parseInt(size) + parseInt(top) + parseInt(crust);
+    var order = 1;
+    var grandTotal = 0;
+    console.log(total)
+})
+
 })
