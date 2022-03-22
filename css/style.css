@@ -19,3 +19,46 @@
 #Dcheckout{
   display: none;
 }
+
+body{
+  background-image:url('../images/330844-P9MZCI-697.jpg');
+}
+.body{
+  background-color: #D7C2B3;
+  height:min-content;
+  margin: 5vh;
+  margin-left: 10em;
+  padding-bottom: 3%;
+}
+ .logo {
+   padding-left: 40%;
+ }
+
+ h1{
+   font-family: 'Fredericka the Great', cursive;
+   color: #A17B67;
+  padding-left: 30%;
+  margin: 2%;
+ }
+ 
+ .card{
+   width: 15rem;
+   margin: 1%;
+ }
+
+ .flex{
+   display: flex;
+ }
+ .card-img-top{
+   width: 100%;
+   height: 50%;
+ }
+
+
+/* Color palette
+ #CAA5A1  -light purple
+ #DAC8BD  -light grey
+ #D9735D   -salmon
+ #81767B   -darker grey
+ #45353E   deep purple */
+
