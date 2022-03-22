@@ -19,11 +19,41 @@
       <div class="logo"><img src="images/png/Color logo - no background.png" width="180px" height="160px" alt=""></div>
       <h1> PIZAZZ PALACE</h1>
       <h2>Home of the beloved Emperor's delight </h2>
-      <p>all our pizza is made <span>fresh to order </span>  using only <span>the best quality </span> of meats and cheese. </p>
+      <p>All our pizza is made <span>fresh to order </span>  using only <span>the best quality </span> of meats and cheese. </p>
       <p>Order one today to get a taste of the <span> real deal</span></p>
+
+      <div class="flex">
+        <div class="card" >
+          <img class="card-img-top" src="images/pexels-anastasia-belousova-4315769.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Mushroom</h5>
+            <p class="card-text">made with mushrooms,cheese.tomato sauce,and herbs</p>
+            
+          </div>
+        </div>
+
+        <div class="card" >
+          <img class="card-img-top" src="images/front-view-delicious-cheese-pizza-consists-olives-pepper-tomatoes-dark-surface.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Margherita</h5>
+            <p class="card-text">made with cheese,olives,pepper, tomato sauce and basil</p>
+          
+          </div>
+        </div>
+
+        <div class="card " >
+          <img class="card-img-top" src="images/mixed-ingredient-pizza-wooden-board.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Emperor's choice</h5>
+            <p class="card-text">made with cheese,sausages,meats,and herbs</p>
+          
+          </div>
+        </div>
+      </div>
+
       <label for="size-select">select your pizza size</label>
       <div class="size-select">
-        <select class="form-control col-md-4 size">
+        <select class="form-control col-md-4 size" required>
           <option value="n">select size</option>
           <option value="500">small</option>
           <option value="700">medium</option>
@@ -77,7 +107,7 @@
 
       
       <div class="ltop top">
-        <label for="ltop">choose a topping</label>
+        <p>choose a topping</p>
         <div class="form-check">
           <input class="form-check-input" type="checkbox" value="300" id="margherita l">
           <label class="form-check-label" for="margherita">
@@ -99,7 +129,7 @@
       </div>
 
       <label for="crust">choose your crust preference</label>
-      <select class="form-control col-md-4 crust">
+      <select class="form-control col-md-4 crust" required>
         <option value="n">choose crust</option>
         <option value="200">Stuffed</option>
         <option  value="150">Gluten-Free</option>
