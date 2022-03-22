@@ -13,7 +13,7 @@ CSS & HTML & JAVASCRIPT
 ## BDD
 | Behaviour      | Input        | Output       |
 | :------------- | :----------: | -----------: |
-|  Select Pizza size  |   |    size based toppins menu |
+|  Select Pizza size  |   | size determined toppings menu |
 | Choose topping  | |   |
 | Select crust |     |     |
 | Press order|     |the order in a table, and add,delivery & checkkout buttons|
