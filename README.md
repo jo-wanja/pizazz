@@ -7,7 +7,7 @@ This is a site where customers can order pizza and can even opt for delivery.
 * An internet connection
 * a browser 
 * a computer
-* if you have all of the above, all that's left is to click on this link https://jo-wanja.github.io/delani/
+* if you have all of the above, all that's left is to click on this link https://jo-wanja.github.io/pizazz/
 ## Technologies Used
 CSS & HTML & JAVASCRIPT
 ## BDD
