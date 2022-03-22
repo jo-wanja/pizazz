@@ -68,7 +68,7 @@ $(function(){
       $("#delivery").hide();
       $("#del").hide();
       $("#add").hide();
-      $("#checkoutMsg").text("your total is Ksh"+grandtotal+"/ you can come pick up you order in 10 minutes")
+      $("#checkoutMsg").text("your total is Ksh"+grandtotal+" you can come pick up you order in 10 minutes")
 
     })
 
@@ -90,7 +90,7 @@ $(function(){
       console.log("your total is "+grandtotal+" and will be delivered to "+local)
       
       $("#Dcheckout").click(function(){
-        $("#DcheckoutMsg").text("your total is Ksh"+grandtotal+"/ and will be delivered to "+local)
+        $("#DcheckoutMsg").text("your total is Ksh"+grandtotal+" and will be delivered to "+local)
       })
       })
     })
@@ -127,7 +127,7 @@ $(function(){
           $("#delivery").hide();
           $("#del").hide();
           $("#add").hide();
-          $("#checkoutMsg").text("your total is Ksh"+grandtotal+"/ you can come pick up you order in 10 minutes")
+          $("#checkoutMsg").text("your total is Ksh"+grandtotal+" you can come pick up you order in 10 minutes")
           $("#checkout").hide();
         })
     
@@ -150,7 +150,7 @@ $(function(){
       console.log("your total is "+grandtotal+" and will be delivered to "+local)
       
       $("#Dcheckout").click(function(){
-        $("#DcheckoutMsg").text("your total is Ksh"+grandtotal+"/ and will be delivered to "+local)
+        $("#DcheckoutMsg").text("your total is Ksh"+grandtotal+" and will be delivered to "+local)
       })
     })
 
